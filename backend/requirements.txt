@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+PyMuPDF==1.26.1
+google-generativeai
+sentence-transformers
+scikit-learn
