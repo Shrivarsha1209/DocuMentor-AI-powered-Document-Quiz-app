@@ -36,9 +36,13 @@ Built with FastAPI + React, it leverages NLP models like Sentence-BERT for gradi
 
 DocuMentor/
 ├── backend/
+
 │   ├── main.py
+
 │   ├── qa_engine.py
+
 │   ├── quiz_generator.py
+
 │   ├── summarizer.py
 │   ├── answer_grader.py
 │   └── uploaded_text.txt
