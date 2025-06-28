@@ -34,31 +34,7 @@ Built with FastAPI + React, it leverages NLP models like Sentence-BERT for gradi
 
 ## 🏗️ Project Structure
 
-DocuMentor/
-├── backend/
-
-│   ├── main.py
-
-│   ├── qa_engine.py
-
-│   ├── quiz_generator.py
-
-│   ├── summarizer.py
-│   ├── answer_grader.py
-│   └── uploaded_text.txt
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── components/
-│   │   │   ├── Home.jsx
-│   │   │   ├── SummarySection.jsx
-│   │   │   └── GradingSection.jsx
-│   │   ├── pages/
-│   │   │   ├── SummaryPage.jsx
-│   │   │   ├── QuizPage.jsx
-│   │   │   ├── QASectionPage.jsx
-│   │   │   └── GradingPage.jsx
-│   │   └── index.js
+📁 quizapp/ ├── 📁 backend/ │ ├── main.py # FastAPI entry point │ ├── qa_engine.py # Handles question answering │ ├── quiz_generator.py # Generates quizzes from text │ ├── summarizer.py # Summarizes the uploaded content │ ├── answer_grader.py # Grades user answers │ └── uploaded_text.txt # Stores uploaded document text ├── 📁 frontend/ │ ├── 📁 src/ │ │ ├── App.js # Main React component │ │ ├── 📁 components/ │ │ │ ├── Home.jsx │ │ │ ├── SummarySection.jsx │ │ │ └── GradingSection.jsx │ │ ├── 📁 pages/ │ │ │ ├── SummaryPage.jsx │ │ │ ├── QuizPage.jsx │ │ │ ├── QASectionPage.jsx │ │ │ └── GradingPage.jsx │ │ └── index.js # Entry point for React app </code> </pre>
 
 
 /backend → FastAPI server with endpoints
